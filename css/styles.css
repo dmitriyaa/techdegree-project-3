@@ -2,7 +2,6 @@
 /*-----------------------------------------------
    Base Elements Styles
 -----------------------------------------------*/
-
 * {
    box-sizing: border-box;
 }
@@ -20,15 +19,15 @@ p {
 }
 
 /* ---- Container ---- */
-
 .container {
    padding-left: 1em;
    padding-right: 1em;
    text-align: center;
+   max-width: 600px;
+   margin: 0 auto;
 }
 
 /* ---- Header/Subheader ---- */
-
 header {
    text-align: center;
    background: #2d3945;
@@ -53,7 +52,6 @@ header h1 {
 }
 
 /* ---- Form ---- */
-
 form {
    text-align: left;
 }
@@ -152,7 +150,7 @@ button {
   padding: 20px 0;
   color: #FFF;
   background-color: #08B5A5;
-  font-size: 1.15em;
+  font-size: 1.1em;
   border-radius: 7px;
   width: 100%;
   border: none;
@@ -163,7 +161,33 @@ button:hover {
    cursor: pointer;
 }
 
+/* ---- Footer ---- */
 footer {
    font-style: italic;
    margin: 20px 0 50px;
+}
+
+/*-----------------------------------------------
+   Mefia Queries
+-----------------------------------------------*/
+@media (min-width: 769px) {
+   fieldset:first-of-type label {
+      display: block;
+      width: 35%;
+      float: left;
+      clear: both;
+      margin: 10px 0 30px;
+      padding: 15px 0;
+   }
+
+   fieldset:first-of-type input,
+   fieldset:first-of-type select{
+      width: 65%;
+      float: right;
+   }
+
+   fieldset:first-of-type input[id="zip"] {
+      max-width: 25%;
+      float: left;
+   }
 }
