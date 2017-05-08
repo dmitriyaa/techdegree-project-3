@@ -23,19 +23,19 @@
                <legend>Contact Information</legend>
 
                <label for="name">Full Name</label>
-               <input type="text" id="name" name="user_name" placeholder="Required">
+               <input type="text" required id="name" name="user_name" placeholder="Required">
 
                <label for="email">Email Address</label>
-               <input type="email" id="email" name="user_email" placeholder="Required">
+               <input type="email" required id="email" name="user_email" placeholder="Required">
 
                <label for="tel">Phone Number</label>
-               <input type="tel" id="tel" name="uset_tel">
+               <input type="tel" id="tel" name="uset_tel" placeholder="Phone number">
 
                <label for="street_address">Street Address</label>
-               <input type="text" id="street_address" name="user_street_address">
+               <input type="text" id="street_address" name="user_street_address" placeholder="Street address">
 
                <label for="city">City</label>
-               <input type="text" id="city" name="user_city">
+               <input type="text" id="city" name="user_city" placeholder="City">
 
                <label for="state">State</label>
                <select id="state" name="user_state">
@@ -46,7 +46,7 @@
                </select>
 
                <label for="zip">Zip Code</label>
-               <input type="text" id="zip" name="zip_code">
+               <input type="text" id="zip" name="zip_code" placeholder="Zip">
             </fieldset>
 
             <fieldset>
@@ -62,7 +62,7 @@
                <input type="radio" id="plain_ft" value="plain_text" name="user_format"><label for="plain_ft" class="light">Plain text</label><br>
 
                <label for="topics">Other topics you'd like to hear about</label>
-               <textarea id="topics" name="user_topics" rows="3"></textarea>
+               <textarea id="topics" name="user_topics" placeholder="Please type in some topics taht you would like to hear about..."></textarea>
             </fieldset>
 
             <button type="submit">Sign Up</button>

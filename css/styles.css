@@ -11,6 +11,7 @@ body {
    line-height: 1.2;
    font-weight: 300;
    color: #242424;
+   background-color: #e9ecf1;
 }
 
 p {
@@ -30,7 +31,7 @@ p {
 /* ---- Header/Subheader ---- */
 header {
    text-align: center;
-   background: #2d3945;
+   background: #486a8d;
 }
 
 header h1 {
@@ -43,7 +44,7 @@ header h1 {
 
 .subheader {
    padding-bottom: 1.6em;
-   border-bottom: 4px solid #293F53;
+   border-bottom: 4px solid #486a8d;
 }
 
 .subheader h2 {
@@ -61,7 +62,7 @@ fieldset {
    margin-top: .2em;
    padding-top: calc(30px + 2.3em);
    border: none;
-   border-top: 2px solid #2d3945;
+   border-top: 2px solid #486a8d;
    font-size: .9rem;
 }
 
@@ -101,20 +102,20 @@ input[type="time"],
 input[type="url"],
 textarea,
 select {
-  border: none;
-  font-size: 1em;
-  height: 46px;
-  margin: 10px 0 30px;
-  outline: 0;
-  padding: 15px;
-  width: 100%;
-  background-color: #eff0f1;
+   border: none;
+   font-size: 1em;
+   height: 46px;
+   margin: 10px 0 30px;
+   outline: 0;
+   padding: 15px;
+   width: 100%;
+   background-color: #eff0f1;
    border-radius: 5px;
+   box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.37);
 }
 
 input::placeholder{
    text-align: right;
-
    font-style: italic;
    font-size: 0.8rem;
    color: #B4B4B4;
@@ -137,7 +138,11 @@ textarea {
 
 input:focus,
 textarea:focus {
-   border: 2px solid #293F53;
+   border: 2px solid #486a8d;
+   color: #fff;
+   box-shadow: none;
+   background-color: #597ba0;
+    transition: background 1s, color .5s;
 }
 
 select {
@@ -149,7 +154,7 @@ select {
 button {
   padding: 20px 0;
   color: #FFF;
-  background-color: #08B5A5;
+  background-color: #597ba0;
   font-size: 1.1em;
   border-radius: 7px;
   width: 100%;
