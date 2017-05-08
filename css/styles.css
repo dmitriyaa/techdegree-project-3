@@ -1,1 +1,169 @@
-font-family: 'Merriweather', serif;
+
+/*-----------------------------------------------
+   Base Elements Styles
+-----------------------------------------------*/
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Merriweather', serif;
+   line-height: 1.2;
+   font-weight: 300;
+   color: #242424;
+}
+
+p {
+   font-size: .9em;
+   color: #879096;
+}
+
+/* ---- Container ---- */
+
+.container {
+   padding-left: 1em;
+   padding-right: 1em;
+   text-align: center;
+}
+
+/* ---- Header/Subheader ---- */
+
+header {
+   text-align: center;
+   background: #2d3945;
+}
+
+header h1 {
+   color: #EEE;
+   font-size: 1.2em;
+   text-transform: uppercase;
+   margin-top: 0;
+   padding: 1.3em 0;
+}
+
+.subheader {
+   padding-bottom: 1.6em;
+   border-bottom: 4px solid #293F53;
+}
+
+.subheader h2 {
+   font-size: 1.2em;
+   margin-top: 1.5em;
+}
+
+/* ---- Form ---- */
+
+form {
+   text-align: left;
+}
+
+fieldset {
+   position: relative;
+   margin-top: .2em;
+   padding-top: calc(30px + 2.3em);
+   border: none;
+   border-top: 2px solid #2d3945;
+   font-size: .9rem;
+}
+
+fieldset:nth-of-type(2) {
+   padding-top: 3em;
+}
+
+fieldset:nth-of-type(2) label{
+   margin-top: 24px;
+}
+
+legend {
+   position: absolute;
+   top: 30px;
+   font-weight: 700;
+   font-size: 1.2em;
+}
+
+label {
+   display: block;
+   margin-bottom: 4px;
+}
+
+label.light {
+  display: inline;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  border: none;
+  font-size: 1em;
+  height: 46px;
+  margin: 10px 0 30px;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #eff0f1;
+   border-radius: 5px;
+}
+
+input::placeholder{
+   text-align: right;
+
+   font-style: italic;
+   font-size: 0.8rem;
+   color: #B4B4B4;
+   padding-right: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 16px 14px 0;
+}
+
+input[id="zip"] {
+   width: 50%;
+}
+
+textarea {
+   resize: none;
+   height: 100px;
+}
+
+input:focus,
+textarea:focus {
+   border: 2px solid #293F53;
+}
+
+select {
+  padding: 6px;
+  height: 52px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 20px 0;
+  color: #FFF;
+  background-color: #08B5A5;
+  font-size: 1.15em;
+  border-radius: 7px;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+footer {
+   font-style: italic;
+   margin: 20px 0 50px;
+}
