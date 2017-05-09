@@ -103,8 +103,8 @@ input[type="url"],
 textarea,
 select {
    border: none;
-   font-size: 1em;
-   height: 46px;
+   font-size: .9rem;
+   height: 56px;
    margin: 10px 0 30px;
    outline: 0;
    padding: 15px;
