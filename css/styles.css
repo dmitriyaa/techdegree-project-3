@@ -175,7 +175,7 @@ footer {
 /*-----------------------------------------------
    Mefia Queries
 -----------------------------------------------*/
-@media (min-width: 769px) {
+@media (min-width: 768px) {
    fieldset:first-of-type label {
       display: block;
       width: 35%;
