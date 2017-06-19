@@ -1,4 +1,4 @@
-# Treehouse Techdegree Project 2
+# Treehouse Techdegree Project 3
 One of 12 **_Front End Web Development_** projects at [Treehouse Techdegree Courses](https://teamtreehouse.com/techdegree/front-end-web-development)
 
 ## Project Desription
